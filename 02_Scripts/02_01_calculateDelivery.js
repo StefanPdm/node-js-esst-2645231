@@ -1,5 +1,6 @@
 const summe = process.argv[2];
 const summeAsNumber = summe * 1;
+console.log('Hello')
 
 if (summeAsNumber >= 35) {
   console.log("Keine Lieferkosten");
